@@ -2,11 +2,17 @@
 
 [ext_resource type="Texture2D" uid="uid://bfdyfcuuthi5y" path="res://image/стекло подправленое текстура.png" id="1_scjey"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j7ndo"]
+size = Vector2(16.987595, 517.956)
+
 [node name="Sprite2D" type="Sprite2D" unique_id=2027413619]
 scale = Vector2(0.40285152, 0.40418354)
 texture = ExtResource("1_scjey")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=450408220]
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D" unique_id=1478229562]
-polygon = PackedVector2Array(248.23041, -66.80133, -367.381, -69.27546, -714.90356, -19.792988, -722.35046, 0, -697.52747, 257.30884, -476.6024, 331.53253, 39.716866, 331.53253, 243.26581, -37.11185)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1813655372]
+position = Vector2(-137.00275, 114.8275)
+rotation = -0.7853981
+scale = Vector2(0.99999994, 0.9999999)
+shape = SubResource("RectangleShape2D_j7ndo")
