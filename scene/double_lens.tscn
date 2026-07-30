@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dphlof61boq03"]
+
+[ext_resource type="Texture2D" uid="uid://bfdyfcuuthi5y" path="res://image/стекло подправленое текстура.png" id="1_io5by"]
+[ext_resource type="Script" uid="uid://b34xp30qwwjnd" path="res://script/double_lens.gd" id="2_io5by"]
+
+[node name="double_lens" type="Sprite2D" unique_id=2027413619]
+scale = Vector2(0.5630904, 0.56309044)
+texture = ExtResource("1_io5by")
+script = ExtResource("2_io5by")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=378486935]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D" unique_id=2103188885]
+position = Vector2(-17.37614, 12.370604)
+scale = Vector2(0.9162464, 0.9162465)
+polygon = PackedVector2Array(248.23041, -66.80133, -367.381, -71.74958, -714.90356, -19.792988, -724.8328, 4.948247, -695.04517, 257.30884, -476.6024, 331.53253, 39.716866, 331.53253, 243.26581, -39.585976)

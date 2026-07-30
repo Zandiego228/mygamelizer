@@ -1,18 +1,16 @@
-[gd_scene format=3 uid="uid://br2b7j8pkxihh"]
+[gd_scene format=3 uid="uid://vvafkehhwhee"]
 
-[ext_resource type="Texture2D" uid="uid://bfdyfcuuthi5y" path="res://image/стекло подправленое текстура.png" id="1_scjey"]
+[ext_resource type="Texture2D" uid="uid://pgyjxkhtvp73" path="res://image/black.png" id="1_igoce"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_j7ndo"]
-size = Vector2(16.987595, 517.956)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g4v7s"]
+size = Vector2(50.000008, 50.000004)
 
-[node name="Sprite2D" type="Sprite2D" unique_id=2027413619]
-scale = Vector2(0.40285152, 0.40418354)
-texture = ExtResource("1_scjey")
+[node name="mirror" type="Sprite2D" unique_id=1219286579]
+texture = ExtResource("1_igoce")
 
-[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=450408220]
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=696093580]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1813655372]
-position = Vector2(-137.00275, 114.8275)
-rotation = -0.7853981
-scale = Vector2(0.99999994, 0.9999999)
-shape = SubResource("RectangleShape2D_j7ndo")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1296944513]
+position = Vector2(-7.0929525e-07, 2.658367e-06)
+scale = Vector2(0.99999976, 0.99999976)
+shape = SubResource("RectangleShape2D_g4v7s")
