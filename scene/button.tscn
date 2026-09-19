@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://c24fhi0tn3dwk"]
+
+[ext_resource type="Texture2D" uid="uid://dk05amkyays6l" path="res://image/image-Photoroom.png" id="1_b5a7g"]
+[ext_resource type="Script" uid="uid://cwow5j8e2wf3g" path="res://script/button.gd" id="1_e4n74"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i38c6"]
+bg_color = Color(0.13118038, 0.6817116, 0.6892963, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6ance"]
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e4n74"]
+bg_color = Color(0.7449736, 0.57105875, 0.13782686, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[node name="Button" type="Button" unique_id=1552965334]
+offset_right = 300.0
+offset_bottom = 100.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_i38c6")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_6ance")
+theme_override_styles/hover = SubResource("StyleBoxFlat_e4n74")
+text = "error"
+icon = ExtResource("1_b5a7g")
+expand_icon = true
+script = ExtResource("1_e4n74")

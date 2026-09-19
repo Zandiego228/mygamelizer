@@ -15,4 +15,4 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta: float) -> void:
 	#print($Area2D,$"../line/Beam".selff)
-	clone.visible = ($Area2D == $"../line/Beam".selff)
+	clone.visible = ($Area2D == $"../Beam".selff)

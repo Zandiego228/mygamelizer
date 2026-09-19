@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c8ey3p8d8iapd"]
 
-[ext_resource type="Script" uid="uid://dr00dck2f0wqo" path="res://script/laser.gd" id="1_decs0"]
+[ext_resource type="Script" uid="uid://dr00dck2f0wqo" path="res://script/beam.gd" id="1_decs0"]
 
 [node name="Beam" type="Line2D" unique_id=1239925210]
 script = ExtResource("1_decs0")

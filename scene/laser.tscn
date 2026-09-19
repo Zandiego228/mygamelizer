@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dwb73ri1u5w10"]
+
+[ext_resource type="Texture2D" uid="uid://dk05amkyays6l" path="res://image/image-Photoroom.png" id="1_6vqwg"]
+[ext_resource type="Script" uid="uid://c4v7c3222r8v0" path="res://script/laser.gd" id="2_6ance"]
+[ext_resource type="PackedScene" uid="uid://c8ey3p8d8iapd" path="res://scene/beam.tscn" id="2_g6b45"]
+
+[node name="ImagePhotoroom" type="Sprite2D" unique_id=92866383]
+rotation = -0.00078438025
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_6vqwg")
+script = ExtResource("2_6ance")
+
+[node name="Beam" parent="." unique_id=1239925210 instance=ExtResource("2_g6b45")]
+rotation = 3.1415927

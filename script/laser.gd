@@ -1,35 +1,12 @@
-extends Line2D
-var points1 = []
-var size_line = Vector2(10,10)
-var angle_deg
-var size
-var selff
-func _ready() -> void:
-	
-	z_index = -1
-	width = 0.5
+extends Sprite2D
 
-	$RayCast2D.collide_with_areas = true
-	$RayCast2D.target_position = Vector2(0, -1000)
-	scale = size_line / get_parent().scale
-func lines(pos2, rotate):
-	$RayCast2D.position = pos2
-	$RayCast2D.rotation_degrees = rotate
-	$RayCast2D.force_raycast_update()
-	if $RayCast2D.is_colliding() and size < 1000:
-		selff = $RayCast2D.get_collider()
-		size += 1
-		points1.append(to_local($RayCast2D.get_collision_point()))
-		if $RayCast2D.get_collider() is StaticBody2D:
-			angle_deg = rad_to_deg(($RayCast2D.to_global($RayCast2D.target_position) - $RayCast2D.global_position).bounce($RayCast2D.get_collision_normal()).angle()) + 90
-			lines($RayCast2D.get_parent().to_local($RayCast2D.get_collision_point()), angle_deg - $"..".global_rotation_degrees)
-			
-	else:
-		points1.append(to_local($RayCast2D.to_global($RayCast2D.target_position)))
-		selff = self
-func _physics_process(_delta: float) -> void:
-	$RayCast2D.position = Vector2.ZERO
-	points1 = [$RayCast2D.position]
-	size = 0
-	lines($RayCast2D.position, 0)
-	points = points1
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _physics_process(delta: float) -> void:
+	global_rotation_degrees += Input.get_axis("ui_right","ui_left")
