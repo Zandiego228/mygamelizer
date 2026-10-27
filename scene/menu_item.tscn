@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://i1m0bvdxacwh"]
 
-[ext_resource type="Script" uid="uid://cnutl71ogfgi2" path="res://script/menu_tscn.gd" id="1_ff3v7"]
-[ext_resource type="Texture2D" uid="uid://b0o80a7gxikvu" path="res://image/free-icon-bin-484560.png" id="2_qk17c"]
+[ext_resource type="Script" uid="uid://cnutl71ogfgi2" path="res://script/menu_item.gd" id="1_1c0sm"]
+[ext_resource type="Texture2D" uid="uid://b0o80a7gxikvu" path="res://image/free-icon-bin-484560.png" id="2_01haf"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g4v7s"]
 bg_color = Color(0.529067, 0.52906656, 0.52906656, 1)
@@ -24,7 +24,7 @@ offset_right = -0.4480133
 offset_bottom = -0.28001404
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_ff3v7")
+script = ExtResource("1_1c0sm")
 
 [node name="delete" type="Button" parent="." unique_id=1170822800]
 layout_mode = 0
@@ -42,11 +42,11 @@ theme_override_styles/disabled = SubResource("StyleBoxFlat_g4v7s")
 theme_override_styles/disabled_mirrored = SubResource("StyleBoxFlat_g4v7s")
 theme_override_styles/focus = SubResource("StyleBoxFlat_g4v7s")
 text = "Удолить"
-icon = ExtResource("2_qk17c")
+icon = ExtResource("2_01haf")
 icon_alignment = 1
 expand_icon = true
 
-[node name="Button2" type="Button" parent="." unique_id=41024163]
+[node name="size" type="Button" parent="." unique_id=41024163]
 modulate = Color(0.9235518, 0.55365777, 0.6317733, 1)
 layout_mode = 0
 offset_top = 51.0
@@ -65,7 +65,7 @@ theme_override_styles/disabled_mirrored = SubResource("StyleBoxFlat_g4v7s")
 theme_override_styles/focus = SubResource("StyleBoxFlat_g4v7s")
 text = "привет"
 
-[node name="Button3" type="Button" parent="." unique_id=1296323332]
+[node name="rotation" type="Button" parent="." unique_id=1296323332]
 modulate = Color(0.23845702, 0.69738674, 0.54539126, 1)
 layout_mode = 0
 offset_top = 102.0

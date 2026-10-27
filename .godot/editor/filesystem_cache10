@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1793117448
+::res://::1793117769
 ::res://image/::1791719304
 black.png::CompressedTexture2D::1066693424895763280::1785311016::1785311016::1::::<><><>0<>0<>8cccb1d1c3d8b39f15fbe9846dfc1355<>res://.godot/imported/black.png-12444f089ddfd08bdcbbde6f41fed507.ctex::
 free-icon-bin-484560.png::CompressedTexture2D::4172091418547079542::1790404955::1791719304::1::::<><><>0<>0<>1757458983b9d04c900ef4422a9203ba<>res://.godot/imported/free-icon-bin-484560.png-de7202aa1e951836d3678e035efe3054.ctex::
@@ -11,22 +11,22 @@ withe.png::CompressedTexture2D::7848305070147276710::1785311643::1785311643::1::
 ::res://maps/::1793086273
 default_leve1l.tscn::PackedScene::951530650988052772::1793086273::0::1::::<><><>0<>0<><>::uid://8lt1k0van1vq::::res://scene/border.tscn<>uid://dj21o5fnsf4pm::::res://image/withe.png<>uid://c24fhi0tn3dwk::::res://scene/button.tscn<>uid://dwb73ri1u5w10::::res://scene/laser.tscn
 ::res://maps/level1/::1789837566
-::res://scene/::1793088655
+::res://scene/::1793117769
 beam.tscn::PackedScene::7098838767522760305::1789810348::0::1::::<><><>0<>0<><>::uid://dr00dck2f0wqo::::res://script/beam.gd
 border.tscn::PackedScene::2340140613662113802::1789809055::0::1::::<><><>0<>0<><>::
 button.tscn::PackedScene::6728123645690638290::1789829111::0::1::::<><><>0<>0<><>::uid://dk05amkyays6l::::res://image/image-Photoroom.png<>uid://cwow5j8e2wf3g::::res://script/button.gd
 double_lens.tscn::PackedScene::8227238549652221614::1785426192::0::1::::<><><>0<>0<><>::uid://bfdyfcuuthi5y::::res://image/стекло подправленое текстура.png<>uid://b34xp30qwwjnd::::res://script/double_lens.gd
 laser.tscn::PackedScene::8707474841332580309::1789810535::0::1::::<><><>0<>0<><>::uid://dk05amkyays6l::::res://image/image-Photoroom.png<>uid://c4v7c3222r8v0::::res://script/laser.gd<>uid://c8ey3p8d8iapd::::res://scene/beam.tscn
 lens.tscn::PackedScene::3635487611681493901::1790404324::0::1::::<><><>0<>0<><>::uid://bfdyfcuuthi5y::::res://image/стекло подправленое текстура.png<>uid://dd2ccq1tqb03u::::res://script/lens.gd
-menu_tscn.tscn::PackedScene::615957904601921163::1793088563::0::1::::<><><>0<>0<><>::uid://cnutl71ogfgi2::::res://script/menu_tscn.gd<>uid://b0o80a7gxikvu::::res://image/free-icon-bin-484560.png
+menu_item.tscn::PackedScene::615957904601921163::1793117778::0::1::::<><><>0<>0<><>::uid://cnutl71ogfgi2::::res://script/menu_tscn.gd<>uid://b0o80a7gxikvu::::res://image/free-icon-bin-484560.png
 mirror.tscn::PackedScene::1517327109944454184::1792309605::0::1::::<><><>0<>0<><>::uid://pgyjxkhtvp73::::res://image/black.png
 parent_tscn.tscn::PackedScene::3888301759271914116::1793088655::0::1::::<><><>0<>0<><>::uid://pgyjxkhtvp73::::res://image/black.png<>uid://b5rpqyu165wv8::::res://script/parent_tscn.gd
 woll.tscn::PackedScene::1753925731403993600::1785315262::0::1::::<><><>0<>0<><>::uid://dj21o5fnsf4pm::::res://image/withe.png
-::res://script/::1793088679
+::res://script/::1793117651
 beam.gd::GDScript::8405605240707415550::1789809859::0::1::::<>Line2D<><>0<>0<><>::
 button.gd::GDScript::6347287087545151730::1793086587::0::1::::<>Button<><>0<>0<><>::
 double_lens.gd::GDScript::4413000048199099569::1785426721::0::1::::<>Sprite2D<><>0<>0<><>::
 laser.gd::GDScript::6853617794707801023::1785262003::0::1::::<>Sprite2D<><>0<>0<><>::
 lens.gd::GDScript::7425692668349597720::1789809540::0::1::::<>Sprite2D<><>0<>0<><>::
-menu_tscn.gd::GDScript::5727758877913772427::1793088679::0::1::::<>Control<><>0<>0<><>::
 parent_tscn.gd::GDScript::4528121034927508579::1793088642::0::1::::<>Sprite2D<><>0<>0<><>::
+menu_item.gd::GDScript::5727758877913772427::1793117651::0::1::::<>Control<><>0<>0<><>::

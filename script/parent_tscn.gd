@@ -9,7 +9,7 @@ func _ready() -> void:
 func _physics_process(delta: float) -> void:
 
 	if $Button.is_hovered() and Input.is_action_just_released("right_click"):
-		object = load("res://scene/menu_tscn.tscn").instantiate()
+		object = load("res://scene/menu_item.tscn").instantiate()
 		add_child.call_deferred(object)
 
 	set_meta("Parent_Pressed",  $Button.is_pressed())

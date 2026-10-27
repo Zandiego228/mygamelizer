@@ -1,1 +1,6 @@
 res://script/menu_tscn.gd
+res://scene/menu_item.tscn
+res://scene/parent_tscn.tscn
+res://script/parent_tscn.gd
+res://maps/default_leve1l.tscn
+res://script/menu_item.gd
