@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bvnr050hkrieu"]
+
+[ext_resource type="Texture2D" uid="uid://pgyjxkhtvp73" path="res://image/black.png" id="1_7fghm"]
+[ext_resource type="Script" uid="uid://b5rpqyu165wv8" path="res://script/parent_tscn.gd" id="2_8rvuw"]
+
+[node name="Black" type="Sprite2D" unique_id=1232438260]
+texture = ExtResource("1_7fghm")
+script = ExtResource("2_8rvuw")
+metadata/button_pressed = false
+metadata/Parent_Pressed = false
+
+[node name="Button" type="Button" parent="." unique_id=351911582]
+offset_left = -25.0
+offset_top = -25.0
+offset_right = 25.0
+offset_bottom = 25.0

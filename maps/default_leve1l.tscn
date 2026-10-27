@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://ns6tn31p4sf1"]
+
+[ext_resource type="PackedScene" uid="uid://8lt1k0van1vq" path="res://scene/border.tscn" id="2_umty1"]
+[ext_resource type="Texture2D" uid="uid://dj21o5fnsf4pm" path="res://image/withe.png" id="3_a3vx7"]
+[ext_resource type="PackedScene" uid="uid://c24fhi0tn3dwk" path="res://scene/button.tscn" id="4_acah7"]
+[ext_resource type="PackedScene" uid="uid://dwb73ri1u5w10" path="res://scene/laser.tscn" id="5_78f23"]
+
+[sub_resource type="GDScript" id="GDScript_umty1"]
+script/source = "extends Node2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _physics_process(delta: float) -> void:
+	#print(get_tree().get_node_count())
+	pass
+"
+
+[node name="DefaultLevel" type="Node2D" unique_id=854038760]
+script = SubResource("GDScript_umty1")
+metadata/ww = false
+
+[node name="Border" parent="." unique_id=1142367831 instance=ExtResource("2_umty1")]
+
+[node name="Sprite2D" type="Sprite2D" parent="Border" unique_id=2140533694]
+position = Vector2(839.5, 324)
+scale = Vector2(0.5, 12.948)
+texture = ExtResource("3_a3vx7")
+
+[node name="Button" parent="." unique_id=1552965334 instance=ExtResource("4_acah7")]
+offset_left = 852.0
+offset_top = 1.0
+offset_right = 1152.0
+offset_bottom = 101.0
+
+[node name="ImagePhotoroom" parent="." unique_id=92866383 instance=ExtResource("5_78f23")]
+position = Vector2(333, 314)

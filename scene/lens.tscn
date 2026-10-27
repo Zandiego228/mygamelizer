@@ -4,7 +4,6 @@
 [ext_resource type="Script" uid="uid://dd2ccq1tqb03u" path="res://script/lens.gd" id="2_waglv"]
 
 [node name="lens" type="Sprite2D" unique_id=2027413619]
-position = Vector2(620, 243)
 scale = Vector2(0.40285152, 0.40418354)
 texture = ExtResource("1_scjey")
 script = ExtResource("2_waglv")
