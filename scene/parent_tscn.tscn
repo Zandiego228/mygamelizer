@@ -2,15 +2,31 @@
 
 [ext_resource type="Texture2D" uid="uid://pgyjxkhtvp73" path="res://image/black.png" id="1_7fghm"]
 [ext_resource type="Script" uid="uid://b5rpqyu165wv8" path="res://script/parent_tscn.gd" id="2_8rvuw"]
+[ext_resource type="Texture2D" uid="uid://rvbpddgentqc" path="res://image/free-icon-up-arrow-9991670.png" id="3_8rvuw"]
 
 [node name="Black" type="Sprite2D" unique_id=1232438260]
 texture = ExtResource("1_7fghm")
 script = ExtResource("2_8rvuw")
 metadata/button_pressed = false
 metadata/Parent_Pressed = false
+metadata/rotate = false
 
 [node name="Button" type="Button" parent="." unique_id=351911582]
 offset_left = -25.0
 offset_top = -25.0
 offset_right = 25.0
 offset_bottom = 25.0
+metadata/_edit_use_anchors_ = true
+
+[node name="rotate" type="Sprite2D" parent="." unique_id=128633202]
+position = Vector2(1.1920929e-07, -62.999996)
+rotation = -2.3561945
+scale = Vector2(0.19921875, 0.19921875)
+texture = ExtResource("3_8rvuw")
+
+[node name="rotate" type="Button" parent="rotate" unique_id=974666634]
+offset_left = 205.86517
+offset_top = -227.1615
+offset_right = 318.86517
+offset_bottom = 387.8385
+rotation = 0.7853982
